@@ -3,7 +3,7 @@ import datetime, time
 
 def apagar_sistema(minutos):
 
-    them = datetime.datetime.now()+ datetime.timedelta(seconds=minutos)
+    them = datetime.datetime.now()+ datetime.timedelta(minutes=minutos)
 
     while them > datetime.datetime.now():
         print ("que")
